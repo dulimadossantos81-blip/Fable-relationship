@@ -1,7 +1,0 @@
-{
-  "name": "fable-deploy-loader",
-  "private": true,
-  "dependencies": {
-    "adm-zip": "^0.5.16"
-  }
-}
