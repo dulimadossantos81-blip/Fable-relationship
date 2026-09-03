@@ -24,4 +24,4 @@ RUN sed -i \
 
 RUN deno cache --allow-scripts src/deno.ts
 
-CMD ["deno", "run", "-A", "--env", "src/deno.ts"]
+CMD ["sh", "-c", "deno run -A --env update_commands.ts && deno run -A --env src/deno.ts"]
